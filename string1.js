@@ -1,4 +1,4 @@
-alf="AEIOUY"
+alf="AEIOU"
 str="This wAAAebsite is for losers LOL"
 str=str.split('')
 console.log(typeof str)
@@ -12,6 +12,3 @@ if(alf.indexOf(str[i].toUpperCase())!==-1)
 }
 }
 str=str.join("")
-console.log(str)
-
-
